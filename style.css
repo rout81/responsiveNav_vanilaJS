@@ -3,8 +3,9 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  background-size: cover;
+  background-repeat: no-repeat;
   background-image: linear-gradient(rgba(255, 192, 203, 0.4), rgba(255, 192, 203, 0.4)), url(background.jpg);
+  overflow: hidden;
 
 }
 
@@ -48,9 +49,7 @@ ul li {
 }
 
 @media screen and (max-width: 950px) {
-  body {
-    overflow: hidden;
-  }
+  
   nav ul {
     position: absolute;
     right: 0px;
