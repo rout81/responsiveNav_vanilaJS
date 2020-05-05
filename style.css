@@ -9,6 +9,10 @@ body {
 
 }
 
+.overflow {
+  overflow:hidden;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -53,6 +57,10 @@ ul li {
   body {
     overflow:hidden;
   }
+  
+  .overflow {
+  overflow:hidden;
+}
   
   nav ul {
     position: absolute;
