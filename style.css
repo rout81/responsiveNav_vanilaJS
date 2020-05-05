@@ -66,6 +66,7 @@ ul li {
     align-items: center;
     background-color: rgba(255, 192, 203, 0.534);
     transform: translateX(100%);
+    overflow:hidden;
   }
 
   #ham {
