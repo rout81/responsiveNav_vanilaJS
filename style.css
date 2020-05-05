@@ -5,12 +5,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(255, 192, 203, 0.4), rgba(255, 192, 203, 0.4)), url(background.jpg);
-  overflow: hidden;
+  overflow-x: hidden;
 
 }
 
 .overflow {
-  overflow:hidden;
+  overflow-x: hidden;
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
   color: rgb(233, 148, 91);
   text-shadow: 2px 2px 5px rgb(0, 0, 0);
   height: 8vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .container h1 {
@@ -55,11 +55,11 @@ ul li {
 
 @media screen and (max-width: 950px) {
   body {
-    overflow:hidden;
+    overflow-x: hidden;
   }
   
   .overflow {
-  overflow:hidden;
+  overflow-x: hidden;
 }
   
   nav ul {
@@ -74,7 +74,7 @@ ul li {
     align-items: center;
     background-color: rgba(255, 192, 203, 0.534);
     transform: translateX(100%);
-    overflow:hidden;
+    overflow-x: hidden;
   }
 
   #ham {
