@@ -50,6 +50,9 @@ ul li {
 }
 
 @media screen and (max-width: 950px) {
+  body {
+    overflow:hidden;
+  }
   
   nav ul {
     position: absolute;
