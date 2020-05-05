@@ -5,12 +5,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(255, 192, 203, 0.4), rgba(255, 192, 203, 0.4)), url(background.jpg);
-  overflow: hidden !important;
+  /* overflow: hidden; */
 
-}
-
-.overflow {
-  overflow: hidden !important;
 }
 
 .container {
@@ -21,7 +17,6 @@ body {
   color: rgb(233, 148, 91);
   text-shadow: 2px 2px 5px rgb(0, 0, 0);
   height: 8vh;
-  overflow: hidden !important;
 }
 
 .container h1 {
@@ -42,6 +37,11 @@ ul li {
   color: green;
 }
 
+li a {
+  color: green;
+  text-decoration: none;
+}
+
 #ham {
   display: none;
 }
@@ -53,17 +53,14 @@ ul li {
   margin: 3px;
 }
 
-@media screen and (max-width: 950px) {
-  body {
-    overflow: hidden !important;
-  }
-  
-  .overflow {
-  overflow: hidden !important;
+header {
+  /* overflow: hidden; */
 }
+
+@media screen and (max-width: 950px) {
   
   nav ul {
-    position: absolute;
+    /* position: absolute;
     right: 0px;
     height: 70vh;
     top: 8vh;
@@ -73,8 +70,8 @@ ul li {
     width: 40%;
     align-items: center;
     background-color: rgba(255, 192, 203, 0.534);
-    transform: translateX(100%);
-    overflow: hidden !important;
+    transform: translateX(100%); */
+    display: none;
   }
 
   #ham {
@@ -84,6 +81,20 @@ ul li {
 
 }
 
-.active {
+/* .active {
   transform: translateX(0%);
+} */
+
+.activeul {
+  position: absolute;
+    right: 0px;
+    height: 70vh;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+    background-color: rgba(255, 192, 203, 0.534);
+    /* transform: translateX(100%); */
 }
